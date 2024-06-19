@@ -1,0 +1,12 @@
+[package]
+name = "ImageProcessor"
+authors = ["Chris Bowen <chris@clud-wales.co.uk>"]
+description = "A tool that converts .jpg and .png image files to .webp"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+image = "0.25.1"
+webp = "0.3.0"
